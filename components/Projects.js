@@ -6,35 +6,40 @@ export default function Projects() {
   const projects = [
     {
       title: "Natours",
-      description: "Architected a scalable backend using Node.js and Express.js following MVC principles. Engineered secure user authentication and authorization using JWTs.",
+      description:
+        "A full-stack travel booking application featuring complex data relations, secure user authentication workflows, and a robust REST API for managing tour itineraries.",
       tech: ["Node.js", "Express.js", "MongoDB", "JWT"],
       github: "https://github.com/harshit-parmar07/natours",
       live: "https://natours-app-ew6y.onrender.com/",
     },
     {
       title: "Issue Tracker",
-      description: "Engineered a production-ready issue tracking application using Next.js. Integrated a relational MySQL database utilizing Prisma ORM.",
+      description:
+        "A comprehensive project management dashboard that allows development teams to log, track, assign, and visualize software defects and tasks in real time.",
       tech: ["Next.js", "React", "MySQL", "Prisma"],
       github: "https://github.com/harshit-parmar07/issue-tracker",
       live: "https://issue-tracker-six-black.vercel.app/",
     },
     {
-      title: "Fare Pricing Predictor",
-      description: "Developed a machine learning regression model utilizing XGBoost in Python to predict dynamic surge pricing multipliers.",
-      tech: ["Python", "XGBoost", "Machine Learning"],
+      title: "Cab Ride Fare Predictor",
+      description:
+        "A supervised machine learning regression pipeline built to accurately predict Uber and Lyft ride prices. Leveraged XGBoost to process spatial, temporal, and weather data, achieving a high-performing R² score of 0.967.",
+      tech: ["Python", "XGBoost", "Machine Learning", "Data Engineering"],
       github: "https://github.com/harshit-parmar07/fare-pricing-predictor",
     },
     {
       title: "Game-Hub",
-      description: "Engineered a dynamic front-end web application using ReactJS for video game discovery with advanced search and filtering.",
+      description:
+        "A responsive video game discovery platform that connects to raw game databases, providing users with advanced searching, sorting, and genre-filtering capabilities.",
       tech: ["React", "JavaScript", "CSS"],
       github: "https://github.com/harshit-parmar07/game-hub",
       live: "https://game-hub-pi-navy.vercel.app/",
     },
     {
       title: "API Rate Limiter",
-      description: "Engineered a thread-safe, in-memory API Rate Limiter in Core Java utilizing the Strategy Design Pattern and Token Bucket algorithm.",
-      tech: ["Java", "OOP", "Concurrency"],
+      description:
+        "A cross-runtime traffic control utility showcasing both a lock-free Java in-memory implementation and a scalable, distributed Node.js and Redis middleware layer.",
+      tech: ["Java", "Node.js", "Redis", "Concurrency"],
       github: "https://github.com/harshit-parmar07/api-rate-limiter",
     },
   ];
@@ -79,7 +84,9 @@ export default function Projects() {
                   )}
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">{project.title}</h3>
+              <h3 className="text-xl font-bold text-white mb-3">
+                {project.title}
+              </h3>
               <p className="text-slate-400 mb-6 flex-grow leading-relaxed">
                 {project.description}
               </p>
