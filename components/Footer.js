@@ -27,7 +27,7 @@ export default function Footer() {
             <GithubIcon className="w-6 h-6" />
           </Link>
           <Link
-            href="https://linkedin.com/in/harshit-parmar07" 
+            href="https://linkedin.com/in/harshit-singh-parmar"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-blue-500 transition-colors"

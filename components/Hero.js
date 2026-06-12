@@ -13,7 +13,7 @@ export default function Hero() {
           Final year Computer Science Engineering student
         </h2>
         <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-12 max-w-3xl">
-          Seeking a software engineering role to leverage strong problem-solving abilities in building scalable, data-driven applications, while exploring Machine Learning (ML), Deep Learning (DL), and Generative AI.
+          Seeking a software engineering role to leverage strong problem-solving abilities in building scalable, data-driven applications, while exploring Machine Learning, Deep Learning, and Generative AI.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link
