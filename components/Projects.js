@@ -37,12 +37,6 @@ export default function Projects() {
       tech: ["Java", "OOP", "Concurrency"],
       github: "https://github.com/harshit-parmar07/api-rate-limiter",
     },
-    {
-      title: "Image Caption Transformer",
-      description: "Engineered an end-to-end multimodal deep learning pipeline using TensorFlow and Python to map image representations to text sequences.",
-      tech: ["Python", "TensorFlow", "Deep Learning"],
-      github: "https://github.com/harshit-parmar07/image-caption-transformer",
-    },
   ];
 
   return (
