@@ -5,6 +5,14 @@ import Link from "next/link";
 export default function Projects() {
   const projects = [
     {
+      title: "User Analytics Platform",
+      description:
+        "A full-stack telemetry ingestion system and visualization dashboard built as a MERN monorepo. Engineered a lightweight, decoupled Vanilla JavaScript tracking pixel for data collection and normalized MongoDB collections to ensure high-frequency write reliability without breaching document size limits.",
+      tech: ["MERN Stack", "React", "Node.js", "MongoDB", "Tailwind CSS"],
+      github: "https://github.com/harshit-parmar07/user-analytics-platform",
+      live: "https://user-analytics-app.vercel.app/",
+    },
+    {
       title: "Natours",
       description:
         "A full-stack travel booking application featuring complex data relations, secure user authentication workflows, and a robust REST API for managing tour itineraries.",
