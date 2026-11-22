@@ -4,8 +4,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Harshit Singh Parmar | Software Engineer",
-  description: "Portfolio of Harshit Singh Parmar, seeking a software engineering role to leverage strong problem-solving abilities in building scalable, data-driven applications.",
+  title: "Harshit Singh Parmar | Full-Stack & AI Software Engineer",
+  description:
+    "Portfolio of Harshit Singh Parmar — Computer Science undergraduate specializing in backend architecture, full-stack systems, agentic RAG workflows, and high-concurrency utilities.",
 };
 
 export default function RootLayout({ children }) {
